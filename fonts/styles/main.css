@@ -1,0 +1,63 @@
+/*!***************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/main.scss ***!
+  \***************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css2?family=Square+Peg&display=swap);
+/*!*******************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/main.scss (1) ***!
+  \*******************************************************************************************************************/
+@font-face {
+  font-family: "Tapestry";
+  src: local("Tapestry"), url(../assets/images/Tapestry-Regular-64dbaa2a1106f42266fb.ttf) format("truetype");
+  /* supports formats: 'woff', 'woff2', 'truetype, 'opentype',
+                            'embedded-opentype', and 'svg' */
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.page-header {
+  text-align: center;
+  font-family: "Square Peg", cursive;
+  font-size: 50px;
+}
+
+.image-block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.all-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+.all-links a {
+  padding: 20px;
+  margin: 20px;
+  background-color: #ddd;
+  border-color: #00f;
+  border-radius: 10px;
+  min-width: 200px;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.all-links a:hover {
+  font-style: italic;
+}
+/*!****************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/MainComponent.scss ***!
+  \****************************************************************************************************************************/
+.main-component-box {
+  padding: 50px;
+  margin: 50px;
+  text-align: center;
+  border-radius: 50px;
+  background-color: red;
+}
