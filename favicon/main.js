@@ -16,7 +16,7 @@
   \*******************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n\n//# sourceURL=webpack://webpack_example6/./src/components/MainComponent.scss?");
+eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n\n//# sourceURL=webpack://webpack_example8/./src/components/MainComponent.scss?");
 
 /***/ }),
 
@@ -26,7 +26,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extr
   \******************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n\n//# sourceURL=webpack://webpack_example6/./src/styles/main.scss?");
+eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n\n//# sourceURL=webpack://webpack_example8/./src/styles/main.scss?");
 
 /***/ }),
 
@@ -36,7 +36,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extr
   \*****************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _MainComponent_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./MainComponent.scss */ \"./src/components/MainComponent.scss\");\n\n\n\n\nconst MainComponent = (text = 'Default text') => {\n  let remoteData = {}\n\n\n  const box = document.createElement('div')\n  box.className = 'main-component-box'\n  box.style.border = \"1px solid #CCC\"\n\n  const onClickHandler = () => {\n    const randomValue = Math.ceil(Math.random() * 100)\n    if (randomValue < 10) {\n      box.textContent = text + ' AAAAAAAAAAA'\n    } else if (randomValue < 20) {\n      box.textContent = text + ' BBBBBBBBBBB'\n    } else if (randomValue < 20) {\n      box.textContent = text + ' CCCCCCCCCCC'\n    } else if (randomValue < 30) {\n      box.textContent = text + ' DDDDDDDDDDD'\n    } else if (randomValue < 40) {\n      box.textContent = text + ' EEEEEEEEEEE'\n    } else if (randomValue < 50) {\n      box.textContent = text + ' FFFFFFFFFFF'\n    } else {\n      box.textContent = text + ' 88888888888'\n    }\n  }\n\n  box.addEventListener('click', onClickHandler)\n\n  box.textContent = text\n\n  fetch('https://jsonplaceholder.typicode.com/photos/1')\n    .then(response => response.json())\n    .then(json => {\n      const remoteBlock = document.createElement('div')\n      remoteBlock.className = 'image-block'\n      const image = document.createElement('img')\n      image.className = 'remote-data'\n      image.src = json.thumbnailUrl\n      remoteData = json\n      remoteBlock.appendChild(image)\n      document.querySelector('body').appendChild(remoteBlock)\n    })\n    .catch(error => console.log(error))\n\n  return box\n}\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (MainComponent);\n\n\n\n//# sourceURL=webpack://webpack_example6/./src/components/MainComponent.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _MainComponent_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./MainComponent.scss */ \"./src/components/MainComponent.scss\");\n\n\n\n\nconst MainComponent = (text = 'Default text') => {\n  let remoteData = {}\n\n\n  const box = document.createElement('div')\n  box.className = 'main-component-box'\n  box.style.border = \"1px solid #CCC\"\n\n  const onClickHandler = () => {\n    const randomValue = Math.ceil(Math.random() * 100)\n    if (randomValue < 10) {\n      box.textContent = text + ' AAAAAAAAAAA'\n    } else if (randomValue < 20) {\n      box.textContent = text + ' BBBBBBBBBBB'\n    } else if (randomValue < 20) {\n      box.textContent = text + ' CCCCCCCCCCC'\n    } else if (randomValue < 30) {\n      box.textContent = text + ' DDDDDDDDDDD'\n    } else if (randomValue < 40) {\n      box.textContent = text + ' EEEEEEEEEEE'\n    } else if (randomValue < 50) {\n      box.textContent = text + ' FFFFFFFFFFF'\n    } else {\n      box.textContent = text + ' 88888888888'\n    }\n  }\n\n  box.addEventListener('click', onClickHandler)\n\n  box.textContent = text\n\n  fetch('https://jsonplaceholder.typicode.com/photos/1')\n    .then(response => response.json())\n    .then(json => {\n      const remoteBlock = document.createElement('div')\n      remoteBlock.className = 'image-block'\n      const image = document.createElement('img')\n      image.className = 'remote-data'\n      image.src = json.thumbnailUrl\n      remoteData = json\n      remoteBlock.appendChild(image)\n      document.querySelector('body').appendChild(remoteBlock)\n    })\n    .catch(error => console.log(error))\n\n  return box\n}\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (MainComponent);\n\n\n\n//# sourceURL=webpack://webpack_example8/./src/components/MainComponent.js?");
 
 /***/ }),
 
@@ -46,7 +46,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \*********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _styles_main_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./styles/main.scss */ \"./src/styles/main.scss\");\n/* harmony import */ var _components_MainComponent__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./components/MainComponent */ \"./src/components/MainComponent.js\");\n\n\n\nconst component = (0,_components_MainComponent__WEBPACK_IMPORTED_MODULE_1__[\"default\"])('Another one: ')\n\ndocument.querySelector('body').appendChild(component)\n\n\n\n//# sourceURL=webpack://webpack_example6/./src/main.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _styles_main_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./styles/main.scss */ \"./src/styles/main.scss\");\n/* harmony import */ var _components_MainComponent__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./components/MainComponent */ \"./src/components/MainComponent.js\");\n\n\n\nconst component = (0,_components_MainComponent__WEBPACK_IMPORTED_MODULE_1__[\"default\"])('Another one: ')\n\ndocument.querySelector('body').appendChild(component)\n\n\n\n//# sourceURL=webpack://webpack_example8/./src/main.js?");
 
 /***/ })
 

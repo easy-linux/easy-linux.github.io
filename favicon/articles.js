@@ -16,7 +16,7 @@
   \**********************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n\n//# sourceURL=webpack://webpack_example6/./src/styles/articles.scss?");
+eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n\n//# sourceURL=webpack://webpack_example8/./src/styles/articles.scss?");
 
 /***/ }),
 
@@ -26,7 +26,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extr
   \*************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _styles_articles_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./styles/articles.scss */ \"./src/styles/articles.scss\");\n\n\n/* const initUser = () => {\n    const el = document.createElement('div')\n    el.className = 'user-block'\n    const userHeader = document.createElement('div')\n    userHeader.className = 'user-header'\n    userHeader.textContent = 'John Goodman'\n    el.appendChild(userHeader)\n\n    const userContent = document.createElement('div')\n    userContent.className = 'user-content'\n    userContent.textContent = 'I\\'m a software developer and really into things that related on any web apps'\n    el.appendChild(userContent)\n    document.querySelector('#user-block').appendChild(el)\n}\n\ninitUser() */\n\n\n\n//# sourceURL=webpack://webpack_example6/./src/articles.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _styles_articles_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./styles/articles.scss */ \"./src/styles/articles.scss\");\n\n\n/* const initUser = () => {\n    const el = document.createElement('div')\n    el.className = 'user-block'\n    const userHeader = document.createElement('div')\n    userHeader.className = 'user-header'\n    userHeader.textContent = 'John Goodman'\n    el.appendChild(userHeader)\n\n    const userContent = document.createElement('div')\n    userContent.className = 'user-content'\n    userContent.textContent = 'I\\'m a software developer and really into things that related on any web apps'\n    el.appendChild(userContent)\n    document.querySelector('#user-block').appendChild(el)\n}\n\ninitUser() */\n\n\n\n//# sourceURL=webpack://webpack_example8/./src/articles.js?");
 
 /***/ })
 

@@ -16,7 +16,7 @@
   \*******************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n\n//# sourceURL=webpack://webpack_example6/./src/styles/users.scss?");
+eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n\n//# sourceURL=webpack://webpack_example8/./src/styles/users.scss?");
 
 /***/ }),
 
@@ -26,7 +26,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extr
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _styles_users_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./styles/users.scss */ \"./src/styles/users.scss\");\n\n\nconst initUsers = () => {\n    fetch('https://jsonplaceholder.typicode.com/users')\n    .then(response => response.json())\n    .then(users => {\n        const allUsers = document.createElement('div')\n        allUsers.className = 'users-block'\n\n        users.forEach(user => {\n            const userEl = document.createElement('div')\n            userEl.className = 'user-block'\n            const userHeader = document.createElement('div')\n            userHeader.className = 'user-header'\n            userHeader.textContent = user.name\n            userEl.appendChild(userHeader)\n\n            const userContent = document.createElement('div')\n            userContent.className = 'user-content'\n            userContent.textContent = `${user.address.city} * ${user.address.street}`\n            userEl.appendChild(userContent)\n\n            allUsers.appendChild(userEl)\n        })\n\n        document.querySelector('#users-block').appendChild(allUsers)\n\n    })\n    .catch(error=>console.log(error))\n}\n\ninitUsers()\n\n\n\n//# sourceURL=webpack://webpack_example6/./src/users.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _styles_users_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./styles/users.scss */ \"./src/styles/users.scss\");\n\n\nconst initUsers = () => {\n    fetch('https://jsonplaceholder.typicode.com/users')\n    .then(response => response.json())\n    .then(users => {\n        const allUsers = document.createElement('div')\n        allUsers.className = 'users-block'\n\n        users.forEach(user => {\n            const userEl = document.createElement('div')\n            userEl.className = 'user-block'\n            const userHeader = document.createElement('div')\n            userHeader.className = 'user-header'\n            userHeader.textContent = user.name\n            userEl.appendChild(userHeader)\n\n            const userContent = document.createElement('div')\n            userContent.className = 'user-content'\n            userContent.textContent = `${user.address.city} * ${user.address.street}`\n            userEl.appendChild(userContent)\n\n            allUsers.appendChild(userEl)\n        })\n\n        document.querySelector('#users-block').appendChild(allUsers)\n\n    })\n    .catch(error=>console.log(error))\n}\n\ninitUsers()\n\n\n\n//# sourceURL=webpack://webpack_example8/./src/users.js?");
 
 /***/ })
 
