@@ -6,7 +6,7 @@
   "lang": "en-US",
   "display": "fullscreen",
   "orientation": "any",
-  "start_url": "/?pwa=true",
+  "start_url": "./",
   "background_color": "#ffffff",
   "theme_color": "#ffffff",
   "icons": [
