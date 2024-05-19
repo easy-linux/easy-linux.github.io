@@ -1,0 +1,1 @@
+import{j as s,L as o,O as t}from"../main.js";const e=()=>s.jsxs("div",{className:"app-container",children:[s.jsxs("div",{className:"toolbar",children:[s.jsx(o,{to:"/",className:"toolbar-btn",children:"Home"}),s.jsx(o,{to:"/posts",className:"toolbar-btn",children:"Posts"}),s.jsx(o,{to:"/todos",className:"toolbar-btn",children:"Tickets"})]}),s.jsx(t,{})]});export{e as TopApp};
